@@ -1,4 +1,4 @@
-# send-mails-using-sendgrid
+# sendgrid-django
 This is an implementaion of an email backend for Django that relies on sendgrid's REST API for message delivery.
 
 To use the backend, simply install the package (using pip), set the
