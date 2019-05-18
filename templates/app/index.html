@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>INDEX</title>
+  </head>
+  <body>
+    <form method="POST">
+      {% csrf_token %}
+      <label for="from_email">From</label>
+      <input type="email" name="from_email" placeholder="From Email"><br>
+      <label for="to_email">To</label>
+      <input type="email" name="to_email" placeholder="To Email"><br>
+      <label for="sub">Subject</label>
+      <input type="text" name="sub" placeholder="Subject"><br>
+      <label for="msg">Message</label>
+      <input type="text" name="msg" placeholder="html message"><br>
+      <input type="submit" value="send">
+    </form>
+  </body>
+</html>
